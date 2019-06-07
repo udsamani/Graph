@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3A6C30F22A9704F001AE27A /* DirecteGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3A6C30D22A9704F001AE27A /* DirecteGraph.cpp */; };
 		F3B02C0822A729CC007AA1F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B02C0722A729CC007AA1F2 /* main.cpp */; };
-		F3B02C1022A729EE007AA1F2 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B02C0E22A729EE007AA1F2 /* Graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F3A6C30D22A9704F001AE27A /* DirecteGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DirecteGraph.cpp; sourceTree = "<group>"; };
+		F3A6C30E22A9704F001AE27A /* DirecteGraph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DirecteGraph.hpp; sourceTree = "<group>"; };
 		F3B02C0422A729CC007AA1F2 /* Graphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graphs; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B02C0722A729CC007AA1F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F3B02C0E22A729EE007AA1F2 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
-		F3B02C0F22A729EE007AA1F2 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B02C0722A729CC007AA1F2 /* main.cpp */,
-				F3B02C0E22A729EE007AA1F2 /* Graph.cpp */,
-				F3B02C0F22A729EE007AA1F2 /* Graph.hpp */,
+				F3A6C30D22A9704F001AE27A /* DirecteGraph.cpp */,
+				F3A6C30E22A9704F001AE27A /* DirecteGraph.hpp */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B02C1022A729EE007AA1F2 /* Graph.cpp in Sources */,
 				F3B02C0822A729CC007AA1F2 /* main.cpp in Sources */,
+				F3A6C30F22A9704F001AE27A /* DirecteGraph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
